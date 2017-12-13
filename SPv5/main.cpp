@@ -195,6 +195,7 @@ void randa(Zmogus *masyvas, int kiek)
             cin >> pMiestas;
 
 
+            
             for(int i = 0; i < kiek; i++)
             {
                 masyvas[i].spauzdink(2, 0, pMiestas, rado);
@@ -261,3 +262,4 @@ void randa(Zmogus *masyvas, int kiek)
 //    for(int i = 0; i < kiek; i++)
 //        masyvas[i].spauzdink(4, ymetai-30, pMiestas);
 }
+cout << "tekstas" << endl;
